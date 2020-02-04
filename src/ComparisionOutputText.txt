@@ -1,0 +1,365 @@
+/usr/bin/python3.6 /home/ishu/Documents/course-work/ai-class/hw1/code/src/BeamSearch.py
+==================================================
+Extracting graph
+====================================================================================================
+Parameter Lambda is 0.0 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -13.094215476255275,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.55 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -4.490302107488822,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.6 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -4.073996572756887,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.65 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -3.6962876166291836,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.7000000000000001 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -3.3535968675596504,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.75 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -3.042677712499606,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.8 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -2.760584538856223,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.85 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -2.5046448280949876,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -2.272433836604087,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9500000000000001 and Context sentence is: [<s> In the past year]
+Log Probability of sentence is -2.061751623950143,
+Completed sentence is [<s> In the past year . </s>]
+Length of sentence is 27
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.0 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -18.880737544259198,
+Completed sentence is [<s> It was at the country . </s>]
+Length of sentence is 32
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.55 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -6.013898913904211,
+Completed sentence is [<s> It was at the United States . </s>]
+Length of sentence is 38
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.6 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -5.3882036085396505,
+Completed sentence is [<s> It was at the United States . </s>]
+Length of sentence is 38
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.65 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -4.827606606415622,
+Completed sentence is [<s> It was at the United States . </s>]
+Length of sentence is 38
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.7000000000000001 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -4.325334979801229,
+Completed sentence is [<s> It was at the United States . </s>]
+Length of sentence is 38
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.75 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -3.8753204667980836,
+Completed sentence is [<s> It was at the United States . </s>]
+Length of sentence is 38
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.8 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -3.4721261568217945,
+Completed sentence is [<s> It was at the United States . </s>]
+Length of sentence is 38
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.85 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -3.1108808038388798,
+Completed sentence is [<s> It was at the United States . </s>]
+Length of sentence is 38
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -2.787219973755675,
+Completed sentence is [<s> It was at the United States . </s>]
+Length of sentence is 38
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9500000000000001 and Context sentence is: [<s> It was at the]
+Log Probability of sentence is -2.4844101149623583,
+Completed sentence is [<s> It was at the past few years . </s>]
+Length of sentence is 39
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.0 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -21.153511502176308,
+Completed sentence is [<s> He stressed that Indonesia alternate member states . </s>]
+Length of sentence is 61
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.55 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -5.940280693216496,
+Completed sentence is [<s> He stressed that Indonesia edged past few years . </s>]
+Length of sentence is 58
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.6 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -5.269110819517722,
+Completed sentence is [<s> He stressed that Indonesia edged past few years . </s>]
+Length of sentence is 58
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.65 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -4.673773894230835,
+Completed sentence is [<s> He stressed that Indonesia edged past few years . </s>]
+Length of sentence is 58
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.7000000000000001 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -4.1457018390046025,
+Completed sentence is [<s> He stressed that Indonesia edged past few years . </s>]
+Length of sentence is 58
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.75 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -3.677294650291292,
+Completed sentence is [<s> He stressed that Indonesia edged past few years . </s>]
+Length of sentence is 58
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.8 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -3.2618110202319204,
+Completed sentence is [<s> He stressed that Indonesia edged past few years . </s>]
+Length of sentence is 58
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.85 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -2.8932713158744616,
+Completed sentence is [<s> He stressed that Indonesia edged past few years . </s>]
+Length of sentence is 58
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -2.566371520403638,
+Completed sentence is [<s> He stressed that Indonesia edged past few years . </s>]
+Length of sentence is 58
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9500000000000001 and Context sentence is: [<s> He stressed that Indonesia]
+Log Probability of sentence is -2.276406897826052,
+Completed sentence is [<s> He stressed that Indonesia edged past few years . </s>]
+Length of sentence is 58
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.0 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -32.65344328592033,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on Wednesday . </s>]
+Length of sentence is 75
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.55 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -7.648188170973531,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on Wednesday . </s>]
+Length of sentence is 75
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.6 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -6.702736748431533,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on Wednesday . </s>]
+Length of sentence is 75
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.65 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -5.874159855177286,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on Wednesday . </s>]
+Length of sentence is 75
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.7000000000000001 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -5.135864294405105,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on the two countries . </s>]
+Length of sentence is 83
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.75 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -4.471029554506817,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on the two countries . </s>]
+Length of sentence is 83
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.8 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -3.8922572971895284,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on the two countries . </s>]
+Length of sentence is 83
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.85 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -3.388406782561794,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on the two countries . </s>]
+Length of sentence is 83
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -2.949779433235577,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on the two countries . </s>]
+Length of sentence is 83
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9500000000000001 and Context sentence is: [<s> It is estimated that the power reserve]
+Log Probability of sentence is -2.543574610529934,
+Completed sentence is [<s> It is estimated that the power reserve mainly based on January 20 percent of the United States . </s>]
+Length of sentence is 105
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.0 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -38.73452091896312,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself . </s>]
+Length of sentence is 82
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.55 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -8.623807535492956,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself Direct Action Agenda . </s>]
+Length of sentence is 103
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.6 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -7.484738115885299,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself Direct Action Agenda . </s>]
+Length of sentence is 103
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.65 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -6.496121861813315,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself Direct Action Agenda . </s>]
+Length of sentence is 103
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.7000000000000001 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -5.6380862750516565,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself Direct Action Agenda . </s>]
+Length of sentence is 103
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.75 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -4.8933837020188875,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself Direct Action Agenda . </s>]
+Length of sentence is 103
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.8 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -4.247044633059411,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself Direct Action Agenda . </s>]
+Length of sentence is 103
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.85 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -3.6860767954405413,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself Direct Action Agenda . </s>]
+Length of sentence is 103
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -3.1992039914347514,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself Direct Action Agenda . </s>]
+Length of sentence is 103
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9500000000000001 and Context sentence is: [<s> It particularly highlighted the fact that the external debt]
+Log Probability of sentence is -2.776639431786125,
+Completed sentence is [<s> It particularly highlighted the fact that the external debt owed itself Direct Action Agenda . </s>]
+Length of sentence is 103
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.0 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -15.902868145965943,
+Completed sentence is [<s> Secretary of State Warren Christopher . </s>]
+Length of sentence is 48
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.55 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -5.067292400074466,
+Completed sentence is [<s> Secretary of State Warren Christopher . </s>]
+Length of sentence is 48
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.6 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -4.566899619751457,
+Completed sentence is [<s> Secretary of State Warren Christopher . </s>]
+Length of sentence is 48
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.65 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -4.0602006392252274,
+Completed sentence is [<s> Secretary of State Warren Christopher arrived here today . </s>]
+Length of sentence is 67
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.7000000000000001 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -3.60145390805941,
+Completed sentence is [<s> Secretary of State Warren Christopher arrived here today . </s>]
+Length of sentence is 67
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.75 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -3.1945392369455523,
+Completed sentence is [<s> Secretary of State Warren Christopher arrived here today . </s>]
+Length of sentence is 67
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.8 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -2.8336003172350814,
+Completed sentence is [<s> Secretary of State Warren Christopher arrived here today . </s>]
+Length of sentence is 67
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.85 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -2.5134425224690413,
+Completed sentence is [<s> Secretary of State Warren Christopher arrived here today . </s>]
+Length of sentence is 67
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -2.2294581474072555,
+Completed sentence is [<s> Secretary of State Warren Christopher arrived here today . </s>]
+Length of sentence is 67
+====================================================================================================
+====================================================================================================
+Parameter Lambda is 0.9500000000000001 and Context sentence is: [<s> Secretary of State Warren Christopher]
+Log Probability of sentence is -1.9775600940171547,
+Completed sentence is [<s> Secretary of State Warren Christopher arrived here today . </s>]
+Length of sentence is 67
+====================================================================================================
+
+Process finished with exit code 0

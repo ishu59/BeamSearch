@@ -1,0 +1,49 @@
+Task 3: Discuss the effect of length-normalization module.
+Tune lambda, play with more pre_words, and compare the sentences from two versions of beam search to explore the effect of length-normalization. Please write your findings and evidence in a ​ txt​ file. You can also read papers for reference, and paper citation is welcome.
+
+Formatting couldnot be done as assignment required a text file for part 3
+
+For fixed beam size, we only keep the top result limited by the beam width. The Algorithm ends when it has searched the space. It is true under the assumption that every sentence is of same length, but that is not the case in real world as sentences have valid sentences have varing lengths.
+Our model used in the assignment is simple bigram model used to generate the text from bigram model. Every word is dependent on the word immediately before it. Beam search starts with fixed beam size and It explores new path and based on probability it discards path / nodes with lower probability. But the new path may have lower probability in the future as we cannot visit the nodes discarded earlier. As a result beam search continues to revolve in the search space with low over all probability score or low quality search space and we are worse off than the optimal solution.
+One other challenge with this model is  we do successive multiplication of probability (which is always less than equal to 1), for larger sentences we would have more terms less than 1 multiplied successively which would lead to lower product value for example
+0.1 x 0.1 x 0.1 = 0.001
+0.5 x 0.5 x 0.5 x 0.5 x 0.5 x 0.5 x 0.5 x 0.5 x 0.5 x 0.5 = 0.0009765625
+So in a actual sentence even smaller sentences with every word having lower probability tends to have higher overall product, Whereas when we have sentences with higher words they tend to have lower probability ever with individual words having higher probability. Thus vanilla Beam search in this current form would tend to prefer smaller sentences but less correct over longer and optimal sentences.
+
+To remedy this problem we use an Length Normalization:
+Length normalization is a small change to the beam search algorithm that can help get better results. We normalize the result by dividing it by number of tokens in the sentence raised to a new hyper parameter Lambda. This in essence tries to find an optimal length for the sentences based on the length and their probability. Having Lambda  = 0 is same as vanilla Beam search with no penalty or normalization as anything raised to 0 is 1 and we give no penalty
+
+Having this parameter in essence increases score of sentences with higher probability and higher word count as compared to higher probability and low word count. This comes in handy with two sentences with different length but similar prob score, the sentence with higher length will be chosen as it will have better score.
+
+Evidence:
+Below are my experiments with 6 sentences different from given in the assignment. I have computed lambda value from 0.5 to 0.95
+ sentences = ['<s> In the past year',
+                 '<s> It was at the',
+                 '<s> He stressed that Indonesia',
+                 '<s> It is estimated that the power reserve',
+                 '<s> It particularly highlighted the fact that the external debt',
+                 '<s> Secretary of State Warren Christopher']
+lambda = [0, 0.55, 0.6, 0.65, 0.7000000000000001, 0.75, 0.8, 0.85, 0.9, 0.9500000000000001]
+I have calculated for impact of lambda for sentence and made a comparision using lambda and sentence length. Please refer Comparision.png for line plot representing the contrast
+
+Below is the table of length for the sentence based on lambda values, Column header are sentence number from above.
+
+LambdaValue  1   2   3    4    5   6
+0.00         27  32  61   75   82  48
+0.55         27  38  58   75  103  48
+0.60         27  38  58   75  103  48
+0.65         27  38  58   75  103  67
+0.70         27  38  58   83  103  67
+0.75         27  38  58   83  103  67
+0.80         27  38  58   83  103  67
+0.85         27  38  58   83  103  67
+0.90         27  38  58   83  103  67
+0.95         27  39  58  105  103  67
+
+It can be noted that as we increase the parameter lambda from 0 towards 1 we see an increase in length of the sentences. The optimal sweet spot can be between 0.6 to 0.8. Tuning this would lead to more relevant and complete statements
+Lambda = 0 : prefers shorter text
+Lambda > 0.6 : prefers longer text
+
+Please refer ComparisionOutputText.txt for detailed analysis of every sentence and lambda values.
+
+

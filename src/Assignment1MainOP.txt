@@ -1,0 +1,11 @@
+Extracting graph
+The log_probability of "Water" appearing after "<s>" is -7.824046010856292
+The log_probability of "<s>" appearing after "Water" is -inf
+The log_probability of "economy" appearing after "planned" is -3.068052935133617
+The log_probability of "</s>" appearing after "." is 0.0
+-5.404447778507953	<s> He said . </s>
+-30.911061634645833	<s> Israel and Jordan signed the peace process . </s>
+-10.715490080932009	<s> It is expected . </s>
+-1.7517507887440922	<s> He said . </s>
+-6.167567639528918	<s> Israel and Jordan signed the peace process . </s>
+-3.057075491557179	<s> It is expected . </s>
